@@ -9,9 +9,9 @@ A small library that checks if the current device is an iPhoneX
 
 ## Usage
 
-    let isIphoneX = require('isIphoneX');
+    const isIphoneX = require('isIphoneX');
 
-    let result = isIphoneX();
+    const result = isIphoneX();
 
 
   Output should be `true` for iPhoneX devices and simulators, and false for other devices
