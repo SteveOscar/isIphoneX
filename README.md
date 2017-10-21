@@ -1,7 +1,7 @@
 isIphoneX check for React Native
 =========
 
-A small library that checks if the current device is an iPhoneX
+A small library that checks if the current device is an iPhoneX for React Native
 
 ## Installation
 
@@ -9,12 +9,12 @@ A small library that checks if the current device is an iPhoneX
 
 ## Usage
 
-    const isIphoneX = require('isIphoneX');
+    const check = require('isiphonex')
 
-    const result = isIphoneX();
+    const result = check.isIphoneX()
 
 
-  Output should be `true` for iPhoneX devices and simulators, and false for other devices
+  result should be `true` for iPhoneX devices and simulators, and false for other devices
 
 ## Contributing
 
